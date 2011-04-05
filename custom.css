@@ -1,0 +1,43 @@
+/* Copyright (c) 2010 King Sidharth. All Rights Reserved */
+/*-:[Header]:--*/
+#header_area #header {
+  text-align: right;
+  padding: 0; }
+  #header_area #header #logo {
+    font-weight: normal;
+    font-size: 28px;
+    width: 665px;
+    float: left;
+    padding-top: 8px;
+    letter-spacing: -1px; }
+  #header_area #header #header_deco {
+    width: 250px;
+    float: right;
+    background: #d7d7d7;
+    height: 50px; }
+
+/*-[Navigation & Sidebar]:-*/
+ul.menu {
+  width: 250px;
+  min-height: 300px;
+  margin-right: 0!important;
+  background: #ACACAC; }
+  ul.menu li {
+    clear: left;
+    width: 100%; }
+
+.custom #sidebars {
+  padding: 0;
+  margin: 0; }
+
+/*-:[Blog Style]:-*/
+.teaser h2 {
+  font-weight: bold; }
+
+.custom #disqus_thread {
+  padding-right: 2.5em;
+  padding-left: 1.2em; }
+
+/*-:[Home Page:]-*/
+.home .format_text {
+  text-align: right; }

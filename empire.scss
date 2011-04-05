@@ -1,0 +1,25 @@
+
+@mixin round($rad){ //for rounded corners
+	border-radius: $rad;
+	-moz-border-radius: $rad;
+	-webkit-border-radius: $rad;
+}
+
+@mixin box-shadow($t, $l, $s, $color) { //box-shadow
+	box-shadow: $t $l $s $color;
+	-moz-box-shadow: $t $l $s $color;
+	-webkit-box-shadow: $t $l $s $color;
+}
+
+@mixin box-shadow-in($t, $l, $s, $color) { //box-shadow-inset
+	box-shadow: inset $t $l $s $color;
+	-moz-box-shadow: inset $t $l $s $color;
+	-webkit-box-shadow: inset $t $l $s $color;
+}
+
+@mixin box-shadow-m($ti, $li, $si, $colori, $t, $l, $s, $color) { //multiple box shadow t = top l = left s = spread
+	box-shadow: inset $ti $li $si $colori, $t $l $s $color;
+	-moz-box-shadow: inset $ti $li $si $colori, $t $l $s $color;
+	-webkit-box-shadow: inset $ti $li $si $colori, $t $l $s $color;
+}
+
