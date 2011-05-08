@@ -1,5 +1,9 @@
 <?php
-/* Index
+/* -------------Add your code above this line------------
+ * Copyright (c) 2011 King Sidharth. All Rights Reserved
+ * For more info: https://github.com/kingsidharth/Oyake
+ *
+ * Index
  * 1. Move Navigation In Sidebar
  * 2. Blank Div in Header
  * 3. Footer
